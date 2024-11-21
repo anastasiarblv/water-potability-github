@@ -58,7 +58,7 @@ def save_model(clf_model, model_name):
 
 ##############
 def main():
-    train_processed_data_path = "./data/processed/train_processed.csv"
+    train_processed_data_path = "./data/processed/train_processed_median.csv"
     params_filepath = "params.yaml"
     model_name = "models/model.pkl" # тут вместо "model.pkl" пишем уже "models/"model.pkl"
     try:

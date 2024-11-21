@@ -3,4 +3,4 @@ data_collection:
     test_size: 0.20 # вместо train_data, test_data = train_test_split(data, test_size=0.20, random_state=42)
 
 model_building:
-    n_estimators: 1000 #вместо clf = RandomForestClassifier(n_estimators=100)
+    n_estimators: 100 #вместо clf = RandomForestClassifier(n_estimators=1000)

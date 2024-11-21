@@ -86,7 +86,7 @@ def save_metrics(metrics, metrics_path):
 ##############
 def main():
     try:
-        test_processed_data_path = "./data/processed/test_processed.csv"
+        test_processed_data_path = "./data/processed/test_processed_median.csv"
         model_name_or_model_filepath = "models/model.pkl" # тут вместо "model.pkl" пишем уже "models/model.pkl"
         metrics_path = "reports/metrics.json" # тут вместо "metrics.json" пишем уже "reports/metrics.json"
 
