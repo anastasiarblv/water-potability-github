@@ -16,8 +16,8 @@ def fill_missing_with_mean(df_train_data_or_df_test_data):
     try:
         for column in df_train_data_or_df_test_data.columns:
             if df_train_data_or_df_test_data[column].isnull().any():
-                mean_value = df_train_data_or_df_test_data[column].mean() # тут мы ранее сделали опечтку и на самом деле тут mean_value
-                df_train_data_or_df_test_data[column].fillna(mean_value,inplace=True) # тут мы ранее сделали опечтку и на самом деле тут mean_value
+                mean_value = df_train_data_or_df_test_data[column].mean() 
+                df_train_data_or_df_test_data[column].fillna(mean_value,inplace=True) 
         return df_train_data_or_df_test_data
     except Exception as e:
         raise Exception(f"Error Filling missing values : {e}")
